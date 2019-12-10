@@ -1,0 +1,8 @@
+version: '2.2'
+
+services:
+  blukat:
+    build: .
+    ports:
+      - "33043:31337"
+    tty: true
