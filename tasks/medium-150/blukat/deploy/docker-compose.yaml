@@ -6,3 +6,6 @@ services:
     ports:
       - "33043:31337"
     tty: true
+    restart: on-failure
+    cpus: 0.05
+    mem_limit: 70m
