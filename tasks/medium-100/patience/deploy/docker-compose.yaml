@@ -1,0 +1,11 @@
+version: '2.2'
+
+services:
+  patience:
+    build: .
+    restart: always
+    ports:
+      - 33031:31337
+    pids_limit: 512
+    mem_limit: 128M
+    privileged: true
