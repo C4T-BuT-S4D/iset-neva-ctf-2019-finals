@@ -21,4 +21,4 @@ obj/
 core
 
 *.sqlite3
-
+.ipynb_checkpoints
