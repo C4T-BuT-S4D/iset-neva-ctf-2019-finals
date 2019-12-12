@@ -3,7 +3,7 @@ from binascii import unhexlify
 from hashlib import md5
 from pwn import *
 
-io = remote('127.0.0.1', '33022')
+io = remote('5.101.72.234', '33022')
 
 for i in range(2):
     io.recvuntil('data\n')
