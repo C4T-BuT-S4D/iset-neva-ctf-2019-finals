@@ -2,7 +2,7 @@ from pwn import *
 
 context.binary = "./patience"
 
-r = remote("127.0.0.1", 33031)
+r = remote("5.101.72.234", 33031)
 
 r.recvuntil("Go and take my flag!")
 

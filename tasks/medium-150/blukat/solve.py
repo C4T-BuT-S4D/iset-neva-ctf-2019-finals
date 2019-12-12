@@ -7,7 +7,7 @@ freq = [{} for _ in range(FLAG_LEN * 8)]
 
 while True:
     try:
-        r = remote("0", 33043)
+        r = remote("5.101.72.234", 33043)
         r.sendlineafter("Enter option: ", "1")
         r.sendlineafter("Enter your message: ", "a")
         while True:
