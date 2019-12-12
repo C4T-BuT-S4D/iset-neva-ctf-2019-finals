@@ -4,7 +4,7 @@ services:
   blukat:
     build: .
     ports:
-      - "33043:31337"
+      - "33021:5005"
     tty: true
     restart: on-failure
     cpus: 0.2
