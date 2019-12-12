@@ -1,4 +1,4 @@
-# Easy-50 | ppc | Encoding tournament
+# Easy-50 | ppc | Tournament
 
 ## Информация
 
