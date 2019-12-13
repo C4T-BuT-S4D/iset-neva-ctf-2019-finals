@@ -1,0 +1,1 @@
+gcc shell.c -o shell -s -O2
