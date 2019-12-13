@@ -1,0 +1,12 @@
+Thread Safety	disabled
+Zend Signal Handling	enabled
+Zend Memory Manager	enabled
+Zend Multibyte Support	disabled
+IPv6 Support	enabled
+DTrace Support	available, disabled
+Registered PHP Streams	https, ftps, compress.zlib, php, file, glob, data, http, ftp, phar
+Registered Stream Socket Transports	tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2
+Registered Stream Filters	zlib.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk, convert.iconv.*
+Zend logoThis program makes use of the Zend Scripting Language Engine:
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+with Zend OPcache v7.2.19-0ubuntu0.18.10.1, Copyright (c) 1999-2018, by Zend Technologies
